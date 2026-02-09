@@ -15,7 +15,7 @@ myst-parser
 -e git+https://github.com/open-mmlab/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 sphinx==4.0.2
 sphinx-copybutton
-sphinx_markdown_tables<pre>
+sphinx_markdown_tables  <pre>
 4.Prepare nuScenes-mini dataset as introduced in nuscenes_det.md and create the pkl
 
 5. Train and evalutate model following:
