@@ -15,7 +15,36 @@ myst-parser
 -e git+https://github.com/open-mmlab/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 sphinx==4.0.2
 sphinx-copybutton
-sphinx_markdown_tables  </pre>
+sphinx_markdown_tables 
+mmcv-full>=1.4.8,<=1.6.0
+mmdet>=2.24.0,<=3.0.0
+mmsegmentation>=0.20.0,<=1.0.0
+torch
+torchvision
+lyft_dataset_sdk
+networkx>=2.2,<2.3
+numba==0.53.0
+numpy
+nuscenes-devkit
+plyfile
+scikit-image
+# by default we also use tensorboard to log results
+tensorboard==2.9.1
+setuptools==58.0.4
+trimesh>=2.35.39,<2.35.40
+asynctest
+codecov
+flake8
+interrogate
+isort
+# Note: used for kwarray.group_items, this may be ported to mmcv in the future.
+kwarray
+pytest
+pytest-cov
+pytest-runner
+ubelt
+xdoctest >= 0.10.0
+yapf</pre>
 
   
 4.Prepare nuScenes-mini dataset as introduced in nuscenes_det.md and create the pkl
