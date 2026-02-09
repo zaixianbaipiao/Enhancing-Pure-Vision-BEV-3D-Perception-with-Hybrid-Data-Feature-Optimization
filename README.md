@@ -14,4 +14,4 @@ bash tools/dist_test.sh configs/sabev/clean_config.py work_dirs/clean_config/epo
 
 Acknowledgement
 This project is not possible without multiple great open-sourced code bases. We list some notable examples below.
-https://github.com/mengtan00/SA-BEV/blob/master/README.md
+https://github.com/mengtan00/SA-BEV
